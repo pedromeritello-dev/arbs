@@ -1,0 +1,277 @@
+
+
+.results-hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.results-hero h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.results-hero .subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.results-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.result-card {
+  width: 100%;
+  padding: 28px 32px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  color: #fff;
+}
+
+.result-card .card-label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.result-card h2 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.result-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 900px;
+}
+
+.result-card.green {
+  background: #b8c933;
+  color: #000;
+}
+
+.result-card.blue {
+  background: #354fcf;
+}
+
+.result-card.purple {
+  background: #7d36b8;
+}
+
+.result-card.red {
+  background: #c93333;
+}
+
+
+.indicators-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.indicator-card {
+    background: #fff;
+    padding: 35px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.indicator-card h3 {
+    font-size: 42px;
+    color: #b9c92d;
+    margin-bottom: 10px;
+}
+
+.indicator-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 30px rgba(0,0,0,0.15);
+}
+
+.recycled-materials {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.recycled-materials h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.materials-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.pie-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.pie-chart {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #1aa143 0% 65%,
+    #2ec866 65% 80%,
+    #4fe08a 80% 90%,
+    #7ff0b0 90% 97%,
+    #c9f7dc 97% 100%
+  );
+}
+
+.materials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.material-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 14px 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  font-size: 15px;
+}
+
+.material-item .dot {
+  width: 12px;
+  height: 12px;
+  background: #1aa143;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.material-item .name {
+  flex: 1;
+  font-weight: 600;
+  text-align: left;
+}
+
+.material-item .percent {
+  font-weight: 700;
+}
+
+.mass-balance {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.mass-balance h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.bar-group {
+  margin-bottom: 35px;
+}
+
+.bar-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.label.recycled,
+.value.recycled {
+  color: #c6d437;
+}
+
+.label.reject,
+.value.reject {
+  color: #d13a3a;
+}
+
+.bar {
+  width: 100%;
+  height: 26px;
+  background: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 20px;
+}
+
+.recycled-fill {
+  background: #c6d437;
+}
+
+.reject-fill {
+  background: #d13a3a;
+}
+
+.destination-card {
+  margin-top: 60px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 35px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.destination-card h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.destination-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.destination-card li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.destination-card .dot {
+  width: 10px;
+  height: 10px;
+  background: #1aa143;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
+.results-hero,
+.results-indicators,
+.mass-balance,
+.final-destination {
+    animation: fadeUp 0.9s ease both;
+}
+
+@keyframes growBar {
+    from { width: 0; }
+}
