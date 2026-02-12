@@ -275,3 +275,59 @@
 @keyframes growBar {
     from { width: 0; }
 }
+
+
+
+@media (max-width: 1024px) {
+
+  .results-hero h1 {
+    font-size: 32px;
+  }
+
+  .materials-card {
+    padding: 30px 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .result-card {
+    padding: 22px;
+  }
+
+  .recycled-materials h2,
+  .mass-balance h2 {
+    font-size: 26px;
+  }
+
+  .pie-chart {
+    width: 180px;
+    height: 180px;
+  }
+
+  .bar {
+    height: 22px;
+  }
+
+  .destination-card {
+    padding: 25px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .results-hero {
+    padding: 60px 15px;
+  }
+
+  .result-card h2 {
+    font-size: 18px;
+  }
+
+  .material-item {
+    font-size: 13px;
+  }
+
+}

@@ -185,3 +185,82 @@ body {
     background: #f4f6f9;
     margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .what-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .what-image img {
+        max-width: 100%;
+    }
+
+    .licenses-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .about {
+        padding: 50px 0;
+    }
+
+    .about h1 {
+        font-size: 26px;
+    }
+
+    .about-intro,
+    .about-text {
+        padding: 0 10px;
+    }
+
+    .what-content {
+        gap: 30px;
+    }
+
+    .check-list li {
+        padding-left: 35px;
+        text-align: left;
+    }
+
+    .licenses-box {
+        padding: 30px 20px;
+    }
+
+    .license-card {
+        text-align: center;
+    }
+
+    .location-info {
+        padding: 0 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .about h1 {
+        font-size: 22px;
+    }
+
+    .what-text h2,
+    .location h2,
+    .licenses h2 {
+        font-size: 20px;
+    }
+
+}
