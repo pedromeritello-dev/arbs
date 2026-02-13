@@ -514,3 +514,16 @@ body {
     }
 
 }
+
+
+.logo-arbs {
+    font-size: 26px;
+    font-weight: bold;
+    color: #7a8c1d;
+    letter-spacing: 2px;
+}
+
+.footer .logo-arbs {
+    color: #fff;
+    font-size: 24px;
+}

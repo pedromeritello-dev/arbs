@@ -181,3 +181,19 @@ body {
   }
 
 }
+
+
+.logo-text {
+    font-size: 26px;
+    font-weight: bold;
+    color: #b9c92d;
+    letter-spacing: 2px;
+}
+
+.footer-logo-text {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
